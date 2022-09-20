@@ -1,0 +1,151 @@
+li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 16px;
+}
+@media only screen and (max-width: 1220px) {
+  :root {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  :root {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 940px) {
+  :root {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  :root {
+    font-size: 8px;
+  }
+}
+
+header {
+  height: 15vh;
+  background: rgb(196, 34, 34);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+header > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header > div figure img {
+  width: 100px;
+}
+header > div > ul {
+  display: flex;
+  width: 30%;
+  height: 80%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+}
+header > div > ul > li {
+  width: 23%;
+  height: 70%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+}
+header > div > ul > li:hover {
+  color: rgb(255, 246, 208);
+}
+header > div > ul > li.pages {
+  position: relative;
+}
+header > div > ul > li.pages:hover > ul {
+  opacity: 1;
+  visibility: visible;
+}
+header > div > ul > li.pages > ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  top: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+  z-index: 10;
+}
+header > div > ul > li.pages > ul > li {
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  transition: 0.4s;
+  align-items: center;
+  justify-content: center;
+  background: rgb(196, 34, 34);
+}
+header > div > ul > li.pages > ul > li:hover {
+  color: rgb(255, 246, 208);
+}
+header > div span.phonNum {
+  background: rgba(199, 108, 108, 0);
+  width: 10rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header > div span.phonNum .phoneIcon {
+  background: white;
+  width: 2.2rem;
+  height: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgb(255, 145, 0);
+}
+header > div span.phonNum .num {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+header > div span.phonNum .num span {
+  font-size: 0.5rem;
+}
+header > div div.rightControls {
+  display: flex;
+  width: 15%;
+  justify-content: space-around;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,122 @@
+li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 16px;
+}
+@media only screen and (max-width: 1220px) {
+  :root {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  :root {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 940px) {
+  :root {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  :root {
+    font-size: 8px;
+  }
+}
+
+#lv3 {
+  width: 100%;
+  height: 200vh;
+  background: #ebe2d9;
+  margin: 0;
+  padding: 0;
+}
+#lv3 aside {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+}
+#lv3 aside img {
+  width: 100%;
+}
+
+#menu {
+  width: 100%;
+  height: 140vh;
+  border: solid 1px black;
+  padding: 5% 4%;
+  margin-top: -18%;
+}
+#menu .menuHeader {
+  width: 100%;
+  height: 250px;
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#menu .menuHeader .Menutitle {
+  color: #660000;
+  font-weight: bold;
+  font-size: 2.7rem;
+}
+#menu .menuHeader .menuButtons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  align-items: center;
+  height: 180px;
+  color: #660000;
+}
+#menu .menuHeader .menuButtons .choice {
+  width: 10%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  transition: 0.4s;
+}
+#menu .menuHeader .menuButtons .choice > figure {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 50%;
+  padding: 15%;
+  transition: 0.4s;
+}
+#menu .menuHeader .menuButtons .choice > figure img {
+  width: 100%;
+}
+#menu .menuHeader .menuButtons .choice .choiceName {
+  text-align: center;
+  margin-top: -15px;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+#menu .menuHeader .menuButtons .choosen {
+  color: rgb(255, 187, 0);
+}
+#menu .menuHeader .menuButtons .choosen figure {
+  background: white;
+}/*# sourceMappingURL=main2.css.map */

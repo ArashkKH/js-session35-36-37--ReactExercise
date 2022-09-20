@@ -1,0 +1,158 @@
+li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 16px;
+}
+@media only screen and (max-width: 1220px) {
+  :root {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  :root {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 940px) {
+  :root {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  :root {
+    font-size: 8px;
+  }
+}
+
+#lv2 {
+  width: 100%;
+  height: 100vh;
+  background: #c90808;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding: 5% 10%;
+  position: relative;
+  overflow-x: hidden;
+}
+#lv2 aside.splash {
+  position: absolute;
+}
+#lv2 > div {
+  width: 50%;
+  height: 100%;
+}
+#lv2 div.title {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  color: white;
+  position: relative;
+}
+#lv2 div.title h1 {
+  font-size: 5.5rem;
+  display: flex;
+  margin-bottom: 3rem;
+}
+#lv2 div.title span {
+  margin: 1rem 0px;
+  font-size: 1rem;
+}
+#lv2 div.title > div:nth-child(3) {
+  font-size: 2.3rem;
+  color: rgba(255, 255, 255, 0.747);
+}
+#lv2 div.title > div:nth-child(3) strong {
+  color: white;
+}
+#lv2 div.title div.orderNow {
+  margin-top: 50px;
+  width: 120px;
+  height: 40px;
+  background: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#lv2 div.title div.orderNow:hover {
+  background: rgb(219, 143, 0);
+}
+#lv2 .Bburger figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  position: relative;
+  z-index: 1;
+}
+#lv2 .Bburger figure img {
+  width: 130%;
+}
+#lv2 .splash {
+  z-index: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#lv2 .splash img {
+  opacity: 0.2;
+}
+#lv2 .splash img:nth-child(1) {
+  width: 200px;
+}
+#lv2 .splash img:nth-child(2) {
+  width: 250px;
+}
+#lv2 .splash img:nth-child(3) {
+  width: 150px;
+}
+#lv2 .splash img:nth-child(4) {
+  width: 300px;
+}
+#lv2 .splash img:nth-child(5) {
+  width: 100px;
+}
+#lv2 .splash:nth-child(1) {
+  position: absolute;
+  left: 80%;
+  top: 5%;
+}
+#lv2 .splash:nth-child(2) {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+}
+#lv2 .splash:nth-child(3) {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+}
+#lv2 .splash:nth-child(4) {
+  position: absolute;
+  left: 80%;
+  bottom: 10%;
+}
+#lv2 .splash:nth-child(5) {
+  position: absolute;
+  left: 20%;
+  bottom: 10%;
+}/*# sourceMappingURL=main.css.map */
