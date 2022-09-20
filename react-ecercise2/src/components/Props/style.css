@@ -37,7 +37,9 @@ a {
 }
 
 h1 {
-  width: 200px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -46,9 +48,17 @@ h1 {
 
 div.button-container {
   width: 500px;
-  height: 50%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 4% 0px;
+  border-radius: 10px;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   background: rgba(0, 0, 0, 0.048);
+}
+div.button-container h1 {
+  margin-left: 20px;
+  font-size: 2rem;
 }/*# sourceMappingURL=style.css.map */

@@ -40,23 +40,9 @@ a{
 
 //-------------------------------------//
 
-h1{
-    width: fit-content;
-    height: 50px;
-    // background: #000;
-    @include fcenter();
-}
-div.button-container{
-    width: 500px;
-    height: fit-content;
-    padding: 4% 0px;
-    border-radius: 10px;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    background: rgba(0, 0, 0, 0.048);
-    h1{
-        margin-left: 20px;
-        font-size: 2rem;
+.names{
+    background: orange;
+    &:hover{
+        background: rgb(190, 124, 0);
     }
 }
