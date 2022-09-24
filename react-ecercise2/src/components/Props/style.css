@@ -41,6 +41,7 @@ h1 {
   width: -moz-fit-content;
   width: fit-content;
   height: 50px;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,9 +57,14 @@ div.button-container {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  background: rgba(0, 0, 0, 0.048);
+  background: rgb(180, 180, 180);
 }
 div.button-container h1 {
   margin-left: 20px;
   font-size: 2rem;
+  color: black;
+}
+
+.bi-chat-square-heart-fill {
+  color: red;
 }/*# sourceMappingURL=style.css.map */

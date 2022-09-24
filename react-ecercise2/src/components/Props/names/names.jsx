@@ -7,7 +7,7 @@ function ContentLog(e){
 
 export default (prop)=>{
     function content(prop){
-        if(prop.content){return(prop.content)}
+        if(prop.content){return(prop.content)}else{return('No Name :/')}
     }
 
     return(
