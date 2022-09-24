@@ -23,6 +23,11 @@ export default function Props(){
             SetNames([...names2,x])
         }
     }
+    // setInterval(() => {
+    //     document.getElementById('hello').click()
+    //     // console.log('')
+    // }, 1000);
+    //Intervals are roasted!!
     return(
         <>
             <h1>Playing with REACT <i className="bi bi-filetype-jsx"></i></h1>
@@ -42,7 +47,7 @@ export default function Props(){
                 <hr />
                 {/* ------------------------------ */}
                 <h1>Simple use of state hook </h1>
-                <button onClick={Likes} className="btn">Likes:  <i className="bi bi-chat-square-heart-fill"> </i> {likes}</button>
+                <button onClick={Likes} className="btn" id="hello">Likes:  <i className="bi bi-chat-square-heart-fill"> </i> {likes}</button>
                 <hr />
                 {/* ------------------------------ */}
                 <h1>Functional Element append (Console Log)</h1>

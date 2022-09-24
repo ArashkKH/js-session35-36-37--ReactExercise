@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6cd58186.css",
+    "main.js": "/static/js/main.1ba34f62.js",
+    "static/js/787.7eca9f63.chunk.js": "/static/js/787.7eca9f63.chunk.js",
+    "static/media/main-Burger.png": "/static/media/main-Burger.10be6a0ffbe789b89eb4.png",
+    "static/media/division image.jpg": "/static/media/division image.d74474695787f92722f9.jpg",
+    "static/media/splash1.webp": "/static/media/splash1.906a7458e23d76279c2a.webp",
+    "static/media/Screenshot 2022-09-18 142002.jpg": "/static/media/Screenshot 2022-09-18 142002.0a1eab2508a99e0716b8.jpg",
+    "static/media/whats hot.webp": "/static/media/whats hot.07156ddef99709691aba.webp",
+    "static/media/splash2.webp": "/static/media/splash2.d27bae654df8b2a78e6c.webp",
+    "static/media/burgers.webp": "/static/media/burgers.b62595bfceb9db67d340.webp",
+    "static/media/Breakfast.webp": "/static/media/Breakfast.cd7dfca2c05bf6f624b5.webp",
+    "static/media/tacos.webp": "/static/media/tacos.8894d7ecf8fa92323a7a.webp",
+    "static/media/drinks.webp": "/static/media/drinks.ce18e1f375b7bb598879.webp",
+    "static/media/NUGGS.webp": "/static/media/NUGGS.d3bf536a196b464b4222.webp",
+    "index.html": "/index.html",
+    "main.6cd58186.css.map": "/static/css/main.6cd58186.css.map",
+    "main.1ba34f62.js.map": "/static/js/main.1ba34f62.js.map",
+    "787.7eca9f63.chunk.js.map": "/static/js/787.7eca9f63.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6cd58186.css",
+    "static/js/main.1ba34f62.js"
+  ]
+}
