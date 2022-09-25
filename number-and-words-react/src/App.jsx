@@ -1,24 +1,54 @@
 import React from "react";
 import './App.css'
+import NumDisplay from './numberDisplay'
 
 export default function App(){
-    const rawNum = ['صفر', 'یک', 'دو', 'سه', 'چهار', 'پنچ', 'شش', 'هفت', 'هشت', 'نه']
+    // const Yekan =  ['صفر', 'یک', 'دو', 'سه', 'چهار', 'پنچ', 'شش', 'هفت', 'هشت', 'نه']
+    // const dahHa =  ['یازده', 'دوازده', 'سیزده', 'چهارده', 'پانزده', 'شانزده', 'هفده', 'هجده', 'نوزده']
+    // const Dahgan = ['ده', 'بیست', 'سی', 'چهل', 'پنجاه', 'شصت', 'هفتاد', 'هشتاد', 'نود']
+    // const Sadgan = ['صد', 'دویست', 'سیصد', 'چهارصد', 'پانصد', 'ششصد', 'هفتصد', 'هشتصد', 'نهصد']
+    // const zeros =  ['','هزار', 'میلیون', 'میلیار', 'بیلیون', 'بیلیارد', 'تریلیون', 'تریلیارد']
+
+    const numBook = [
+         ['','هزار', 'میلیون', 'میلیار', 'بیلیون', 'بیلیارد', 'تریلیون', 'تریلیارد'],
+         ['صفر','', 'یک', 'دو', 'سه', 'چهار', 'پنچ', 'شش', 'هفت', 'هشت', 'نه'],
+         ['یازده', 'دوازده', 'سیزده', 'چهارده', 'پانزده', 'شانزده', 'هفده', 'هجده', 'نوزده'],
+         ['ده', 'بیست', 'سی', 'چهل', 'پنجاه', 'شصت', 'هفتاد', 'هشتاد', 'نود'],
+         ['صد', 'دویست', 'سیصد', 'چهارصد', 'پانصد', 'ششصد', 'هفتصد', 'هشتصد', 'نهصد']
+    ]
 
     function Copybtn(){
-        // rawNum.push(prompt('num'))
-        // console.log(rawNum)
-         console.clear()
+
+        // console.log(4/3)
 
     }
-    let num 
-    function GotNum(e){
-        num = e.target.value
+
+    const [num,setNum] = React.useState()
+
+    
+    function GotNum(e) {
+
+        let inp = String(e.target.value)
+        let inpL = inp.length
+        let mod = (inpL%3)
+        let inpRev
+        let tDinp = [[]]
+
+        for(let i = inpL-1 ; i = 0 ; i--){
+            // inpRev[Math.abs(i-inpL+1)] = inp[i]
+            console.log(inp[i])
+        }
         
-        // numSplit.map((element,index)=>{
-        //     console.log(numSplit[numSplit.length-index])
-        // })
-        
+
+        console.log(inpRev)
+
+
+
+
+        // setNum(e.target.value)
+
     }
+
 
     return(
         <main>
@@ -29,7 +59,7 @@ export default function App(){
             <div className="inputs">
                 <div >
                     <input type="number" name="" id="num" placeholder="عدد" onInput={GotNum}/>
-                    <div id="numDisplay" >{num}</div>
+                    <NumDisplay prop={num}></NumDisplay>
                 </div>
                 <i className="bi bi-arrow-down-up"></i>
                 <div>

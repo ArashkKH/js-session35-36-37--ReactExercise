@@ -156,7 +156,6 @@ main .inputs input, main .inputs #numDisplay {
   outline: none;
   border: none;
   transition: 0.4s;
-  box-shadow: 5px 5px 2px rgb(0, 0, 0);
 }
 main .inputs #numDisplay {
   background: rgb(255, 237, 176);
@@ -165,6 +164,7 @@ main .inputs #numDisplay {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 5px 5px 2px rgb(0, 0, 0);
 }
 main .inputs #num {
   position: absolute;
@@ -172,7 +172,7 @@ main .inputs #num {
   left: 0%;
   opacity: 1;
   background: rgba(255, 0, 0, 0);
-  color: rgba(0, 0, 0, 0);
+  color: rgb(0, 0, 0);
   direction: ltr;
   z-index: 10;
 }
@@ -181,6 +181,7 @@ main .inputs #num:focus ~ #numDisplay {
 }
 main .inputs #text {
   background: rgb(176, 255, 176);
+  box-shadow: 5px 5px 2px rgb(0, 0, 0);
 }
 main .inputs #text:focus {
   box-shadow: 0px 0px 15px rgb(31, 153, 0);
